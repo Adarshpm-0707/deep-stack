@@ -50,7 +50,7 @@ export default function Home() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
-          className="text-5xl md:text-7xl lg:text-7xl font-black tracking-tight leading-[1.1] mb-12"
+          className="text-4xl md:text-7xl lg:text-7xl font-black tracking-tight leading-[1.1] mb-12"
         >
           A new era of <br className="hidden md:block" />
           <span className="italic font-serif text-neon">
@@ -88,7 +88,7 @@ export default function Home() {
                 exit={{ opacity: 0, filter: "blur(12px)", y: -20 }}
                 transition={{ duration: 1, ease: "easeInOut" }}
                 className="
-                  text-xl md:text-3xl lg:text-2xl
+                  text-sm md:text-3xl lg:text-2xl
                   font-light uppercase tracking-[0.3em]
                   text-white/80
                 "
